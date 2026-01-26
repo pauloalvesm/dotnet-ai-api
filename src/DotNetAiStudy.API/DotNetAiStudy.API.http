@@ -1,6 +1,6 @@
-@DotNetAiStudy.API_HostAddress = http://localhost:5180
+@DotNetAiStudy.API_HostAddress = http://localhost:8080
 
-GET {{DotNetAiStudy.API_HostAddress}}/weatherforecast/
+GET {{DotNetAiStudy.API_HostAddress}}/scalar/v1
 Accept: application/json
 
 ###
