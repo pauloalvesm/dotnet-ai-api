@@ -1,6 +1,9 @@
+using DotNetAiStudy.API.Extensions;
 using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.AddOpenAI();
 
 builder.Services.AddCors(options =>
 {
